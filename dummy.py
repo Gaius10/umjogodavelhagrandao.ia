@@ -1,5 +1,5 @@
 from lib.agents import RandomAgent, AlphaBetaAgent
-from lib.sims import run
+from lib.runner import run
 
 player1 = RandomAgent()
 player2 = RandomAgent()
