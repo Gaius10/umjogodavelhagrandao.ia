@@ -11,6 +11,10 @@ class Game:
         self.validMoves = [(x,y) for x in range(self.dim*self.dim) for y in range(self.dim*self.dim)]
         self.numMoves = 0
         self.winner = 0
+        self.history = []
+
+    def getHistory(self):
+        return self.history
 
     def getMoves(self):
         return self.validMoves
@@ -73,6 +77,7 @@ class Game:
         self.updateValidMoves(pos)
         self.currPlayer = -self.currPlayer
         self.numMoves += 1
+        self.history.append(pos)
 
     # Utility method called by the move method after each move to 
     # set the valid moves for the next player

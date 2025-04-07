@@ -1,3 +1,7 @@
+'''
+Arquivo para testes gerais.
+'''
+
 from lib.agents import RandomAgent, AlphaBetaAgent
 from lib.runner import run
 
