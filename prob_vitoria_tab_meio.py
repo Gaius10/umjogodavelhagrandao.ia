@@ -1,6 +1,6 @@
-import tictactoe
+import lib.tictactoe
 import random
-from agents import AlphaBetaAgent, MCTSagent, DQNagent, RandomAgent, HybridAgent
+from lib.agents import AlphaBetaAgent, MCTSagent, DQNagent, RandomAgent, HybridAgent
 import time
 
 # Nome e criação dos agentes
@@ -17,7 +17,7 @@ all_moves = []
 
 def simulateGames(agent1, agent2, n=100):
     for _ in range(n):
-        myGame = tictactoe.Game()
+        myGame = lib.tictactoe.Game()
         myGame.currPlayer = 1
         while myGame.getMoves() and not myGame.isEnd():
             if myGame.getNumMoves() % 2 == 0:

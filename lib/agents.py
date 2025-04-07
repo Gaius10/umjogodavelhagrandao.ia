@@ -4,7 +4,7 @@ import collections
 import numpy as np
 from keras.models import Model
 from keras import layers
-from tictactoe import Game
+from .tictactoe import Game
 
 class RandomAgent:
     def getAction(self, gameState):
