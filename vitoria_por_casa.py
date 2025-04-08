@@ -1,5 +1,10 @@
 '''
 Gera um heatmap indicando, para cada casa, o percentual de partidas ganhas em que ela foi preenchida.
+
+A análise desse heatmap pode ajudar a identificar padrões de vitória e estratégias eficazes no jogo da velha.
+O heatmap mostra a proporção de vitórias em que cada casa foi preenchida, permitindo visualizar quais casas são mais frequentemente associadas a vitórias.
+Esse tipo de análise pode ser útil para entender melhor o comportamento dos jogadores e as dinâmicas do jogo, além de fornecer insights sobre quais casas são mais críticas para a vitória.
+Esse heatmap pode ser utilizado para treinar agentes de IA, ajudando-os a identificar as casas mais vantajosas para jogar e a desenvolver estratégias mais eficazes.
 '''
 
 import numpy as np
