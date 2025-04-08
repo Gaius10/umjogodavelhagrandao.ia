@@ -7,7 +7,7 @@ class Game:
         self.dim = dim
         self.board = np.zeros((self.dim**2, self.dim**2))
         self.miniWins = np.zeros((self.dim, self.dim))
-        self.currPlayer = -1 + 2*random.randint(0,1)
+        self.currPlayer = 1
         self.validMoves = [(x,y) for x in range(self.dim*self.dim) for y in range(self.dim*self.dim)]
         self.numMoves = 0
         self.winner = 0
