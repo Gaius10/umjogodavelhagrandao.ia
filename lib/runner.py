@@ -7,7 +7,7 @@ def run(player1, player2, accumulate=lambda: None, n=1000):
     info = None
 
     spinner = PixelSpinner('Simulating games... ')
-    for _ in ChargingBar('Simulating games...   ', suffix="%(percent)d%% | %(elapsed)ds elapsed").iter(range(n)):
+    for _ in ChargingBar('Simulating games...   ', suffix="%(percent)d%% | %(elapsed)ds elapsed").iter(range(n+1)):
         game = Game()
         spinner.start()
 
