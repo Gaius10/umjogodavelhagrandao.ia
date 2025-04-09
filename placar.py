@@ -37,6 +37,15 @@ Entre 2 players do tipo "Minimax" (AlphaBetaAgent vs AlphaBetaAgent, ambos com d
     Empates: 337 (33.70%)
     Total de partidas: 1000.
 
+    ---
+
+    Medias:
+
+    O jogador 1 ganhou 345.75 partidas (34.58%).
+    O jogador 2 ganhou 307.25 partidas (30.73%).
+    Empates: 347.00 (34.7%)
+    Total de partidas: 4000.
+
 Entre 2 players do tipo MCTS
     O jogador 1 ganhou 45 partidas (45.45%).
     O jogador 2 ganhou 47 partidas (47.47%).
