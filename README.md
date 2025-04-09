@@ -9,3 +9,7 @@ Seu objetivo é estudar estratégias e características do jogo.
 - Qual a primeira jogada ideal?
 - Quantidade de empates, no que isso influencia?
 - Quantidade de jogadas possíveis, mínimas e máximas.
+
+## Bibliografia
+
+@todo
