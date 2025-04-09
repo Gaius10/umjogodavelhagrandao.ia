@@ -2,7 +2,8 @@
 Arquivo para testes gerais.
 '''
 
-from lib.agents import RandomAgent, AlphaBetaAgent
+from lib.agents.random import RandomAgent
+from lib.agents.minimax import AlphaBetaAgent
 from lib.runner import run
 
 player1 = RandomAgent()
