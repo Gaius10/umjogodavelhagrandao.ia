@@ -1,6 +1,3 @@
-import tictactoe
-import random
-
 # This evaluation function takes up the number of mini wins of 'x' minus
 # the number of mini wins of 'o'
 

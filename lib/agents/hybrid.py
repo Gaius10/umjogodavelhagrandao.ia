@@ -1,4 +1,3 @@
-import tictactoe
 from minimax import AlphaBetaAgent
 from mcts import MCTSagent
 

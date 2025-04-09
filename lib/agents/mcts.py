@@ -1,8 +1,8 @@
 import random, copy, math, collections
-import tictactoe
+from ..tictactoe import Game
 
 class Node:
-    def __init__(self, move=None, parent=None, state=tictactoe.Game(), agent=None):
+    def __init__(self, move=None, parent=None, state=Game(), agent=None):
         self.move = move # the move that got us to this node
         self.parentNode = parent
         self.childNodes = []
@@ -46,7 +46,7 @@ class Node:
             s += str(c) + "\n"
         return s
 
-class MCTSagent:
+class MCTSAgent:
     def __init__(self, itermax=100, agent=None):
         self.itermax = itermax
         self.agent = agent
