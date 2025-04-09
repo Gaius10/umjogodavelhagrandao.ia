@@ -11,7 +11,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from lib.runner import run
-from lib.agents import RandomAgent
+from lib.agents.random import RandomAgent
 
 def accumulate_heatmap_info(game, victory_counts):
     if (victory_counts is None):
@@ -29,7 +29,7 @@ def accumulate_heatmap_info(game, victory_counts):
 
     return victory_counts
 
-N = 1000
+N = 10**6
 player1 = RandomAgent()
 player2 = RandomAgent()
 
@@ -54,4 +54,4 @@ plt.title("Heatmap das Casas Ocupadas pelo Jogador Vencedor")
 plt.xlabel("Colunas (0 a 8)")
 plt.ylabel("Linhas (0 a 8)")
 plt.tight_layout()
-plt.show()
+plt.savefig("heatmap.png", dpi=300)
